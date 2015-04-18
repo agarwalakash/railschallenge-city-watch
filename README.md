@@ -213,7 +213,7 @@ well, and can be read and maintained by others.
   * A solid submission that completes all components at the `2` level will max
     out at `114 + (25 + 35 + 35 + 25 + 20) points = 254 points`
   * An impossibly good submission that somehow manages to get the best possible
-    implementation on all components could (theoretically) max out at:
+    implementation on all components could (theoretically) max out at
     `144 + (50 + 70 + 70 + 50 + 40) points = 424 points`
 
 Winners are selected by most total points.
