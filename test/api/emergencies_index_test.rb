@@ -29,6 +29,12 @@ class EmergenciesIndexTest < ActionDispatch::IntegrationTest
 
     json_response = JSON.parse(body)
     assert_equal([1, 3], json_response['full_responses'])
+    # ...where [1, 3] are NOT database ids, if that what you're expecting.
+    #
+    # 1 = the number of `full_response` emergencies in the system
+    # 3 = the total number of emergencies in the system
+    #
+    # see `setup_resolved_emergencies`
   end
 
   def setup_resolved_emergencies
