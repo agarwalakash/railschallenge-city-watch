@@ -34,7 +34,7 @@ specifically:
   4. (50 points) Automatic dispatch of responders based on which responders are available and
     on-duty, matching their capabilities to the emergency at hand.
   5. (20 points) Provide a "full response" score that tells you how many emergencies in the
-    city had enough emergency personnel available to handle them historicall.
+    city had enough emergency personnel available to handle them historically.
     Just need a count like "3/10 emergencies had sufficient responders to handle
     them - or something like that".
 
