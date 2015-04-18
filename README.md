@@ -24,7 +24,7 @@ The notes read:
      many fire, police, and medical resources we need per-emergency)
   3. (35 points) Need to be able to see the capacity of the emergency reponders in the city,
 specifically:
-    * The total capacity of all reponders in the city, by type
+    * The total capacity of all responders in the city, by type
     * The total capacity of all "available" responders (not currently assigned
       to an emergency)
     * The total capacity of all "on-duty" responders, including those currently
