@@ -38,7 +38,7 @@ specifically:
     Just need a count like "3/10 emergencies had sufficient responders to handle
     them - or something like that".
 
-**Senior Engineer**
+**Senior Engineer:**
 > "Feel free to [send me an email on the project mailing list][3]
 > with questions if you get stuck. I'm going to be pretty busy writing the apps
 > that will call into your API, but see how far you can get on your own.
@@ -47,7 +47,7 @@ specifically:
 > "Would you mind going over this with me in a little more detail? I have some
 > questions."
 
-**Senior Engineer**
+**Senior Engineer:**
 > "Sorry, gotta go to the sprint planning meeting. Just take a look at the
 > `test/api` folder. I wrote up some integration tests for you so that, so long
 > as you cen get that stuff to pass, my apps should work fine with your API.
@@ -55,13 +55,13 @@ specifically:
 
 You nod hesitantly. Not like you have a choice one way or the other.
 
-**Senior Engineer**
+**Senior Engineer:**
 > "I'm working on a more formal version of the API documentation with the status
 > codes and response formats and everything, but in the meantime you'll have to
 > make due with what's in the `test/api` folder.  I should be able to get that
 > document to you by Wednesday. When it's done I'll throw it in the [project wiki][4]."
 
-**Senior Engineer**
+**Senior Engineer:**
 > "Oh, and BTW. We need the API working 10 calendar days from now, by April
 > 27th; and yes, before you say it, I know I'm dumping this on you late on a
 > Friday evening and all you really want to do is enjoy your weekend. Honestly
