@@ -5,7 +5,7 @@ class EmergenciesCreateTest < ActionDispatch::IntegrationTest
     post '/emergencies/', emergency: { code: 'E-99999999', fire_severity: 1, police_severity: 2, medical_severity: 3 }
     json_response = JSON.parse(response.body)
 
-    assert_equal 200, response.status
+    assert_equal 201, response.status
     assert_equal nil, body['message']
     assert_equal 'E-99999999', json_response['emergency']['code']
     assert_equal 1, json_response['emergency']['fire_severity']
@@ -32,7 +32,7 @@ class EmergenciesCreateTest < ActionDispatch::IntegrationTest
     post '/emergencies', emergency: { code: 'E-not-unique', fire_severity: 1, police_severity: 3, medical_severity: 5 }
     json_response = JSON.parse(body)
 
-    assert_equal 200, response.status
+    assert_equal 201, response.status
     assert_equal(nil, json_response['message'])
     assert_equal('E-not-unique', json_response['emergency']['code'])
     assert_equal(1, json_response['emergency']['fire_severity'])
