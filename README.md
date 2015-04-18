@@ -30,7 +30,7 @@ specifically:
     * The total capacity of all "on-duty" responders, including those currently
       handling emergencies
     * The total capacity of all "available, AND on-duty" responders (the
-      responders currently avaialble to jump into a new emergency)
+      responders currently available to jump into a new emergency)
   4. (50 points) Automatic dispatch of responders based on which responders are available and
     on-duty, matching their capabilities to the emergency at hand.
   5. (20 points) Provide a "full response" score that tells you how many emergencies in the
@@ -38,16 +38,16 @@ specifically:
     Just need a count like "3/10 emergencies had sufficient responders to handle
     them - or something like that".
 
-**Senior Engineer**
+**Senior Engineer:**
 > "Feel free to [send me an email on the project mailing list][3]
 > with questions if you get stuck. I'm going to be pretty busy writing the apps
 > that will call into your API, but see how far you can get on your own.
 
 **You:**
-> "Would you mind going over this with me in a little more detail. I have some
-> questions.
+> "Would you mind going over this with me in a little more detail? I have some
+> questions."
 
-**Senior Engineer**
+**Senior Engineer:**
 > "Sorry, gotta go to the sprint planning meeting. Just take a look at the
 > `test/api` folder. I wrote up some integration tests for you so that, so long
 > as you cen get that stuff to pass, my apps should work fine with your API.
@@ -55,13 +55,13 @@ specifically:
 
 You nod hesitantly. Not like you have a choice one way or the other.
 
-**Senior Engineer**
+**Senior Engineer:**
 > "I'm working on a more formal version of the API documentation with the status
 > codes and response formats and everything, but in the meantime you'll have to
-> made due with what's in the `test/api` folder.  I shold be able to get that
+> make due with what's in the `test/api` folder.  I should be able to get that
 > document to you by Wednesday. When it's done I'll throw it in the [project wiki][4]."
 
-**Senior Engineer**
+**Senior Engineer:**
 > "Oh, and BTW. We need the API working 10 calendar days from now, by April
 > 27th; and yes, before you say it, I know I'm dumping this on you late on a
 > Friday evening and all you really want to do is enjoy your weekend. Honestly
@@ -72,7 +72,7 @@ You nod hesitantly. Not like you have a choice one way or the other.
 >
 > "Again, don't be afraid to hit me up on the [project mailing list][3] if you
 > get stuck with questions of any kind. We need to hit this deadline. After we
-> ship whatever it is we can get done in the next 10 days I'll meet with you to
+> ship whatever it is we can get done in the next 10 days, I'll meet with you to
 > review your code and give you feedback on how I think you did."
 >
 > "Sound good?"
@@ -85,7 +85,7 @@ You nod hesitantly again, and the senior engineer disappears down the hall.
   * Do a `bundle install`
   * Work on your implementation, committing code as you go to github.
   * **All implementations must be done by 11:59pm, April 26th, US Central
-  * Daylight Time (GMT -5)** or else you're out of a job!
+    Daylight Time (GMT -5)** or else you're out of a job!
   * Any commits after the cutoff time will be ignored by the city.
 
 ---
@@ -101,7 +101,7 @@ There are two components to the automated scoring: the test suite, and
 
   * The test suite contains 51 tests, which contain **114 assertions**. For
     every assertion that passes, you will receive 1 point (for a maximum of 114
-    points). **NOTE** you only get points for the tests that come with this
+    points). **NOTE**: you only get points for the tests that come with this
     repository. You're free to add more tests as you develop at your
     discretion, but they will not add to your final score.
   * Rubocop is being used as a static code analysis tool. For every offense it
@@ -112,7 +112,7 @@ had all assertions passing (114 points), but included 3 rubocop offenses (-3
 points) for a total score of ***111 points***. See if you can beat that on the
 automated scoring side!
 
-The [mailing list][3] the senior develoepr refereced is a real mailing list.
+The [mailing list][3] the senior developer referenced is a real mailing list.
 When you run into questions or want clarification on portion of the challenge,
 feel free to email there first. Someone from the **rails**challenge team will
 respond, acting as the (hopefully helpful) senior engineer in the scenario.
@@ -158,13 +158,13 @@ absolutely your choice on how to budget your time.
 
 Part of the spirit of **rails**challenge is to provide feedback and guidance to
 participants. After the submission period ends our panel of judges will act as
-you "senior developer", review the challenge submissions, and award points based
+your "senior developer", review the challenge submissions, and award points based
 on a code review.
 
 Each judge is a currently employed developer or more senior technology
 professional, and is here not just to give out points, but to guide you in your
 coding practice. The goal is not just for you to write a Rails app, but for
-everyone involved to learn how to be better at approach application development.
+everyone involved to learn how to better approach application development.
 
 Here is an outline of the structure of the judge scoring system:
 
@@ -188,8 +188,8 @@ from `-1..3`.
 And from that the judges will assign points accordingly during your code
 review:
 
-  * A `-1` will cause that component's poins to be **subtracted** from your
-    total score.
+  * `-1` will cause that component's points to be **subtracted** from your
+    total score
   * `0` gets you zero points - you made the tests pass, but that's it
   * `1` gets you 50% of that component's points
   * `2` gets you 100% of that component's points
@@ -207,13 +207,13 @@ well, and can be read and maintained by others.
 
   * Maximum of 114 points in the automated scoring section
   * An "OK" submission that completes all components at the `0` level will max out
-    at 114 points.
+    at 114 points
   * A decent submission that completes all components at the `1` level will max
-    out at `114 + (12.5 + 17.5 + 17.5 + 25 + 10) points = 196.5 points`.
+    out at `114 + (12.5 + 17.5 + 17.5 + 25 + 10) points = 196.5 points`
   * A solid submission that completes all components at the `2` level will max
     out at `114 + (25 + 35 + 35 + 25 + 20) points = 254 points`
   * An impossibly good submission that somehow manages to get the best possible
-    implementation on all components could (theoretically) max out at:
+    implementation on all components could (theoretically) max out at
     `144 + (50 + 70 + 70 + 50 + 40) points = 424 points`
 
 Winners are selected by most total points.
