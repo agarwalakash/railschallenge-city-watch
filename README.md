@@ -121,7 +121,7 @@ points) for a total score of ***111 points***. See if you can beat that on the
 automated scoring side!
 
 The [mailing list][3] the senior developer referenced is a real mailing list.
-When you run into questions or want clarification on portion of the challenge,
+When you run into questions or want clarification on a portion of the challenge,
 feel free to email there first. Someone from the **rails**challenge team will
 respond, acting as the (hopefully helpful) senior engineer in the scenario.
 
