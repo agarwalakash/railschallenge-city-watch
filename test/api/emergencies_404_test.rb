@@ -13,7 +13,7 @@ class Emergencies404Test < ActionDispatch::IntegrationTest
     assert_equal({ 'message' => 'page not found' }, JSON.parse(body))
   end
 
-  test '404 on DELETE /emergencies/:name' do
+  test '404 on DELETE /emergencies/:code' do
     delete '/emergencies/F-100'
     assert_equal 404, response.status
     assert_equal({ 'message' => 'page not found' }, JSON.parse(body))
