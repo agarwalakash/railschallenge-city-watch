@@ -107,7 +107,7 @@ There are two components to scoring: automated scoring, and judge scoring.
 There are two components to the automated scoring: the test suite, and
 [rubocop][1].
 
-  * The test suite contains 51 tests, which contain **114 assertions**. For
+  * The test suite contains 50 tests, which contain **114 assertions**. For
     every assertion that passes, you will receive 1 point (for a maximum of 114
     points). **NOTE**: you only get points for the tests that come with this
     repository. You're free to add more tests as you develop at your
