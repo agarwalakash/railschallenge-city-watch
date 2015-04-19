@@ -7,7 +7,7 @@ Welcome to the very first **rails**challenge!
 You're a junior developer on a new Rails project. Your city is updating their
 centralized emergency response center and needs a way to provide real-time data
 about emergencies and emergency services via a JSON web service, which the
-senior engineer on the project has assigned to you.r
+senior engineer on the project has assigned to you.
 
 The senior engineer hands you some notes from the Project Planning Meeting where
 the details of the API were (sort of) ironed out. When you look at the notes you
