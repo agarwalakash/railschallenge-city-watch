@@ -49,8 +49,16 @@ specifically:
 
 **Senior Engineer:**
 > "Sorry, gotta go to the sprint planning meeting. Just take a look at the
-> `test/api` folder. I wrote up some integration tests for you so that, so long
-> as you cen get that stuff to pass, my apps should work fine with your API.
+> `test/api` folder. I wrote up some integration tests for you. As long
+> as you can get that stuff to pass, my apps should work fine with your API.
+> If you find anything that you think is a blatant bug in the spec please report it to
+> the [mailing list][2], or [the issue tracker][5], or if you're super confident
+> that you have a better way you can submit a [pull request][6]. I'll keep an
+> eye on all those channels and try to be as responsive as I can. With the
+> deadline we have coming up I can't promise to merge just any pull request,
+> but if it's small, focused, and doesn't majorly re-spec everything then
+> I'll at least consider it.
+>
 > Think you can handle it?"
 
 You nod hesitantly. Not like you have a choice one way or the other.
@@ -233,3 +241,5 @@ Use the net. Use the mailing list. Use StackOverflow. Whatever you want.
   [2]: https://github.com/railschallenge/railschallenge-city-watch/blob/master/.rubocop.yml
   [3]: https://groups.google.com/forum/#!forum/railschallenge
   [4]: https://github.com/railschallenge/railschallenge-city-watch/wiki
+  [5]: https://github.com/railschallenge/railschallenge-city-watch/issues
+  [6]: https://github.com/railschallenge/railschallenge-city-watch/pulls
