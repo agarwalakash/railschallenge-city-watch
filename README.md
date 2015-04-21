@@ -90,6 +90,7 @@ You nod hesitantly again, and the senior engineer disappears down the hall.
 ## Getting started
 
   * Fork this repo.
+  * **On your fork**, go to "Settings" and check the box next to "Issues" - this will eanble judges to open issues on your fork direclty, in case they need to provide you some feedback
   * Do a `bundle install`
   * Work on your implementation, committing code as you go to github.
   * **All implementations must be done by 11:59pm, April 26th, US Central
