@@ -52,7 +52,7 @@ specifically:
 > `test/api` folder. I wrote up some integration tests for you. As long
 > as you can get that stuff to pass, my apps should work fine with your API.
 > If you find anything that you think is a blatant bug in the spec please report it to
-> the [mailing list][2], or [the issue tracker][5], or if you're super confident
+> the [mailing list][3], or [the issue tracker][5], or if you're super confident
 > that you have a better way you can submit a [pull request][6]. I'll keep an
 > eye on all those channels and try to be as responsive as I can. With the
 > deadline we have coming up I can't promise to merge just any pull request,

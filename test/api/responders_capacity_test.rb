@@ -31,7 +31,7 @@ class RespondersCapacityTest < ActionDispatch::IntegrationTest
     )
   end
 
-  test 'GET /responders/?show=capacity increase and decrease as emergencies are created and resolved' do
+  test 'GET /responders/?show=capacity increases and decreases as emergencies are created and resolved' do
     post '/emergencies/', emergency: { code: 'E-00000001', fire_severity: 1, police_severity: 7, medical_severity: 1 }
     get '/responders/?show=capacity'
     assert_equal(
