@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @responder.name %>
+</p>
+
+<p>
+  <strong>Responder Type:</strong>
+  <%= @responder.responder_type %>
+</p>
+
+<p>
+  <strong>Responder City:</strong>
+  <%= @responder.city %>
+</p>
+
+<%= link_to 'Edit', edit_responder_path(@responder) %> |
+<%= link_to 'Back', responders_path %>

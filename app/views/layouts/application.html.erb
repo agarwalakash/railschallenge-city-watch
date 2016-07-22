@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Red Panthers</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= javascript_include_tag "public" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <%= link_to "Responders", responders_path%>
+    <%= yield %>
+  </body>
+</html>

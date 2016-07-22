@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<%= link_to "Apply Emergency", new_emergency_path %>
+<h1>Listing Responders</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Responder Type</th>
+      <th>City</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @responders.each do |responder| %>
+      <tr>
+        <td><%= responder.name %></td>
+        <td><%= responder.responder_type %></td>
+        <td><%= responder.city %></td>
+        <td><%= link_to 'Show', responder %></td>
+        <td><%= link_to 'Edit', edit_responder_path(responder) %></td>
+        <td><%#= link_to 'Destroy', responder_path(:id => responder.id), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Responder', new_responder_path %>

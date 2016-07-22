@@ -1,0 +1,38 @@
+<%= form_for(@emergency) do |f| %>
+  <% if @emergency.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@emergency.errors.count, "error") %> prohibited this emergency from being saved:</h2>
+
+      <ul>
+      <% @emergency.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :reason %><br>
+    <%= f.text_field :reason %>
+  </div>
+  <div class="field">
+    <%= f.label :fire_need %><br>
+    <%= f.number_field :fire_need %>
+  </div>
+  <div class="field">
+    <%= f.label :police_need %><br>
+    <%= f.number_field :police_need %>
+  </div>
+  <div class="field">
+    <%= f.label :medical_need %><br>
+    <%= f.number_field :medical_need %>
+  </div>
+  <div class="field">
+    <%= f.label :city %><br>
+    <%= f.select :city, options_for_select(Responder::ResponderCities,:selected=>@emergency.city), {},class: 'form-control' %>
+  </div>
+  <br>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

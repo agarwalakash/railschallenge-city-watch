@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Reason:</strong>
+  <%= @emergency.reason %>
+</p>
+
+<p>
+  <strong>Fire need:</strong>
+  <%= @emergency.fire_need %>
+</p>
+
+<p>
+  <strong>Police need:</strong>
+  <%= @emergency.police_need %>
+</p>
+
+<p>
+  <strong>Medical need:</strong>
+  <%= @emergency.medical_need %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @emergency.city %>
+</p>
+
+<%= link_to 'Edit', edit_emergency_path(@emergency) %> |
+<%= link_to 'Back', emergencies_path %>

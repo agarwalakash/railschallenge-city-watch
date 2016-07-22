@@ -1,0 +1,28 @@
+<%= form_for(@responder) do |f| %>
+  <% if @responder.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@responder.errors.count, "error") %> prohibited this responder from being saved:</h2>
+
+      <ul>
+      <% @responder.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    Name : <%= f.text_field :name %>
+  </div>
+  <br/>
+  <div class="field">
+    Type : <%= f.select :responder_type, options_for_select(Responder::ResponderTypes,:selected=>@responder.responder_type), {},class: 'form-control' %>
+  </div>
+  <div class="field">
+    Type : <%= f.select :city, options_for_select(Responder::ResponderCities,:selected=>@responder.city), {},class: 'form-control' %>
+  </div>
+  <br/>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

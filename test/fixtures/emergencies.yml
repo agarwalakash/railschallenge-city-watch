@@ -1,0 +1,16 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  reason: MyString
+  fire_need: 1
+  police_need: 1
+  medical_need: 1
+  city: MyString
+
+two:
+  reason: MyString
+  fire_need: 1
+  police_need: 1
+  medical_need: 1
+  city: MyString
